@@ -1,0 +1,98 @@
+.admin_area{
+    margin-top: 30px;
+}
+.addEvent{
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 10px;
+    font-size: 19px;
+    color: #207FEE;
+    font-family: 'Montserrat', sans-serif;
+}
+.addEvent i{
+    font-size: 14px;
+}
+.addEvent:hover{
+    color: black;
+    text-decoration: underline;
+}
+fieldset{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+form{
+    margin-top: 20px;
+}
+.input_area{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input_area label{
+    display: block;
+}
+.input_area input{
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #C9C9C9;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+label{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.desArea{
+    margin-top: 10px;
+}
+.desArea label{
+    display: block;
+}
+.desArea textarea{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+}
+.submit{
+    margin-top: 20px;
+}
+.submit button{
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background: #0084FF;
+    color: white;
+}
+@media (max-width: 1044px) {
+    .input_area {
+        display: block;
+        text-align: center;
+    }
+   
+    .desArea{
+        text-align: center;
+    }
+    .submit{
+        text-align: center;
+    }
+}
+.taskName label{
+    display: block;
+}
+.message{
+    margin-top: 20px;
+    color: rgb(6, 46, 46);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}

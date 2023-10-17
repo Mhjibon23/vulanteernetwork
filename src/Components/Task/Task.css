@@ -1,0 +1,19 @@
+.taskImage{
+    width: 330px;
+    height: 320px;
+    
+}
+.taskName{
+    text-transform: uppercase;
+    width: 320px;
+    height: 50px;
+    background-color: rgb(33, 62, 141);
+    margin: auto 10px;
+    padding-top: 8px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    cursor: pointer;
+}

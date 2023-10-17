@@ -1,0 +1,124 @@
+nav{
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    padding:0px 100px;
+    width: 420px;
+    line-height: 80px;
+}
+.logo img{
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 10px;
+}
+ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li a:hover{
+    background: #449fad;
+    transition: .5s;
+    color: white;
+}
+ul button{
+    border: none;
+    outline: none;
+    padding: 6px 13px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.register{
+    background-color: #4d44ad;
+    color: white;
+}
+.admin{
+    background-color: black;
+    color: white;
+}
+.checkBtn{
+    float: right;
+    margin-right: 30px;
+    line-height: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 1103px) {
+    .logo img{
+        width: 80%;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 980px) {
+    .logo img{
+        width: 80%;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1045px) {
+    .checkBtn{
+        display: block;
+    }
+    nav ul{
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+    }
+    nav ul li a{
+        display: block !important;
+        line-height: 30px;
+        margin: 20px 0px;
+        font-size: 15px;
+        color: white;
+    }
+   ul button{
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+   }
+   #check:checked ~ ul{
+    left: 0;
+}
+}
+@media (max-width: 480px) {
+    label.logo{
+        padding:0px 50px;
+        width: 320px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 380px) {
+    label.logo{
+        padding:0px 20px;
+        width: 220px;
+        line-height: 80px;
+    }
+}
